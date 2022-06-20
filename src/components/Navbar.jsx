@@ -1,6 +1,6 @@
 import React, {usestate} from 'react'
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
-export default function Navbar() {
+const Navbar = () => {
   const [nav, setNav] = React.useState(false)
   const handleClick = () => setNav(!nav);
   return (
@@ -41,3 +41,4 @@ export default function Navbar() {
     </div>
   )
 }
+export default Navbar;
