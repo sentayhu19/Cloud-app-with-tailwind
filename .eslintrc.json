@@ -13,7 +13,7 @@
       "sourceType": "module"
     },
     "extends": ["airbnb", "plugin:react/recommended"],
-    "plugins": ["react","tailwindcss"],
+    "plugins": ["react"],
     
     "rules": {
       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
@@ -22,14 +22,7 @@
       "no-shadow": "off",
       "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       "react/jsx-props-no-spreading": "off",
-      "prefer-destructuring":"off",
-      "tailwindcss/classnames-order": "warn",
-      "tailwindcss/enforces-negative-arbitrary-values": "warn",
-      "tailwindcss/enforces-shorthand": "warn",
-      "tailwindcss/migration-from-tailwind-2": "warn",
-      "tailwindcss/no-arbitrary-value": "off",
-      "tailwindcss/no-custom-classname": "warn",
-      "tailwindcss/no-contradicting-classname": "error"
+      "prefer-destructuring":"off"
     },
     "ignorePatterns": [
       "dist/",
