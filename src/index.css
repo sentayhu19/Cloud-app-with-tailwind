@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    li{
+        @apply p-4
+    }
+    button {
+        @apply text-white border bg-indigo-600  rounded-md
+    }
+}
