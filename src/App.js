@@ -1,10 +1,11 @@
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 className="text-4xl">Tailwind</h1>
+      <Hero />
     </div>
   );
 }

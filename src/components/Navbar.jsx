@@ -1,7 +1,7 @@
 import React, {usestate} from 'react'
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
 const Navbar = () => {
-  const [nav, setNav] = React.useState(false)
+  const [nav, setNav] = React.useState(true)
   const handleClick = () => setNav(!nav);
   return (
     <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       <div className={nav ? 'hidden':'' +'md:hidden'}>
       <ul className='absolute bg-zinc-200 w-full px-8px'>
-      <li className='border-b-2 border-zinc-300 w-full'>Home</li>
+          <li className='border-b-2 border-zinc-300 w-full'>Home</li>
           <li className='border-b-2 border-zinc-300 w-full'>About</li>
           <li className='border-b-2 border-zinc-300 w-full'>Support</li>
           <li className='border-b-2 border-zinc-300 w-full'>Platfoms</li>
