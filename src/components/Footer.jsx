@@ -6,6 +6,7 @@ import {
     FaTwitter,
     FaTwitch,
 } from 'react-icons/fa';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -55,20 +56,20 @@ const Footer = () => {
                 <p className='uppercase font-bold'>Subscribe to our newsletter</p>
                 <p>The latest news,articles, and resources, sent to your inbox. </p>
                 <form className='flex flex-col sm:flex-row'>
-                <input className='w-full p-2 mr-4 rounded-md mb-4' type="email"/>
+                <input className='w-full p-2 mr-4 rounded-md mb-4' placeholder='Enter Email address' type="email"/>
                 <button className='p-2 mb-4'>Subscribe</button>
                 </form>
 
             </div>
         </div>
-        <div className='flex max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text -gray-500'>
-            <p>2022 All Rights Reserved</p>
+        <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text -gray-500'>
+            <p className='py-4'>&copy; 2022 All Rights Reserved</p>
             <div className='flex justify-between sm:w-[300px] p-4  text-2xl' >
                 <FaFacebook/>
                 <FaInstagram/>
                 <FaTwitter/>
                 <FaTwitch/>
-                <FaGithub/>
+               <a target="blank" href='https://github.com/sentayhu19'><FaGithub/></a> 
             </div>
         </div>
     </div>
