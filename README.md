@@ -5,11 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The Covid-19 data-app collects information from API and present data for the novel coronavirus.
 
-<img src="./src/assets/images/hero.png" width="40%"/>
-
-
-
-
+<img src="./src/assets/images/hero.png" width="100%"/>
+<img src="./src/assets/images/support.png" width="100%"/>
 
 ## Live demo comming soon
 
