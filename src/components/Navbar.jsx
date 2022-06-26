@@ -1,6 +1,7 @@
-import React, { usestate } from "react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, { useState } from 'react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 const Navbar = () => {
   const [nav, setNav] = React.useState(true);
   const handleClick = () => setNav(!nav);
@@ -11,99 +12,121 @@ const Navbar = () => {
           <h1 className="text-40xl font-bold mr-4 sm:text-4xl">Super</h1>
           <ul className="hidden md:flex">
             <li className="cursor-pointer">
-              <Link to="home" smooth={true}  offset={500} duration={500}> Home</Link>{" "}
-              
+              <Link to="home" smooth offset={500} duration={500}> Home</Link>
+              {' '}
+
             </li>
             <li className="cursor-pointer">
-              <Link to="about" smooth={true} offset={-200} duration={500}>About</Link>{" "}
-              
+              <Link to="about" smooth offset={-200} duration={500}>About</Link>
+              {' '}
+
             </li>
             <li className="cursor-pointer">
               <Link
                 to="support"
-                smooth={true}
+                smooth
                 offset={50}
                 duration={500}
-              >Support</Link>{" "}
-              
+              >
+                Support
+              </Link>
+              {' '}
+
             </li>
             <li className="cursor-pointer">
               <Link
                 to="platforms"
-                smooth={true}
+                smooth
                 offset={50}
                 duration={500}
-              >Platform</Link>{" "}
-              
+              >
+                Platform
+              </Link>
+              {' '}
+
             </li>
             <li className="cursor-pointer">
               <Link
                 to="pricing"
-                smooth={true}
+                smooth
                 offset={50}
                 duration={500}
-              >Pricing</Link>{" "}
-              
+              >
+                Pricing
+              </Link>
+              {' '}
+
             </li>
           </ul>
         </div>
         {/* Mobile Menu */}
-        <div className="hidden md:flex pr-4">   
-          <button className="border-none bg-transparent text-black mr-4">
+        <div className="hidden md:flex pr-4">
+          <button type="button" className="border-none bg-transparent text-black mr-4">
             Sign in
           </button>
-          <button className="px-8 py-3 ">Sign up</button>
+          <button type="button" className="px-8 py-3 text-white border bg-indigo-600  rounded-md ">Sign up</button>
         </div>
-        <div className="md:hidden" onClick={handleClick}>
+        <div className="md:hidden" onClick={handleClick} onKeyUp={handleClick} role="button">
           {nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
         </div>
       </div>
-      <div className={nav ? "hidden" : "" + "md:hidden"}>
+      <div className={nav ? 'hidden' : '' + 'md:hidden'}>
         <ul className="absolute bg-zinc-200 w-full px-8px">
-        <li className="cursor-pointer">
-              <Link to="home" smooth={true} onClick={handleClick}  offset={500} duration={500}> Home</Link>{" "}
-              
-            </li>
-            <li className="cursor-pointer">
-              <Link to="about" smooth={true} onClick={handleClick} offset={-200} duration={500}>About</Link>{" "}
-              
-            </li>
-            <li className="cursor-pointer">
-              <Link
-                to="support"
-                onClick={handleClick}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >Support</Link>{" "}
-              
-            </li>
-            <li className="cursor-pointer">
-              <Link
-                to="platforms"
-                onClick={handleClick}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >Platform</Link>{" "}
-              
-            </li>
-            <li className="cursor-pointer">
-              <Link
+          <li className="cursor-pointer">
+            <Link to="home" smooth onClick={handleClick} offset={500} duration={500}> Home</Link>
+            {' '}
+
+          </li>
+          <li className="cursor-pointer">
+            <Link to="about" smooth onClick={handleClick} offset={-200} duration={500}>About</Link>
+            {' '}
+
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              to="support"
               onClick={handleClick}
-                to="pricing"
-                smooth={true}
-                offset={50}
-                duration={500}
-              >Pricing</Link>{" "}
-              
-            </li>
+              smooth
+              offset={50}
+              duration={500}
+            >
+              Support
+            </Link>
+            {' '}
+
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              to="platforms"
+              onClick={handleClick}
+              smooth
+              offset={50}
+              duration={500}
+            >
+              Platform
+            </Link>
+            {' '}
+
+          </li>
+          <li className="cursor-pointer">
+            <Link
+              onClick={handleClick}
+              to="pricing"
+              smooth
+              offset={50}
+              duration={500}
+            >
+              Pricing
+            </Link>
+            {' '}
+
+          </li>
           <li>
             <div className="flex flex-col my-4">
-              <button className="border-none bg-transparent text-black mr-4">
+              <button type="button" className="border-none bg-transparent text-black mr-4">
                 Sign in
               </button>
-              <button className="px-8 py-3 ">Sign up</button>
+              <button type="button" className="px-8 py-3 ">Sign up</button>
             </div>
           </li>
         </ul>
