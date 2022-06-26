@@ -22,7 +22,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <h6 className='font-bold uppercase pt-2 '>Tech upport</h6>
+                <h6 className='font-bold uppercase pt-2 '>Tech Support</h6>
                 <ul>
                     <li  className='py-1'>Installation</li>
                     <li className='py-1'>Configuration</li>
@@ -55,7 +55,7 @@ const Footer = () => {
                 <p className='uppercase font-bold'>Subscribe to our newsletter</p>
                 <p>The latest news,articles, and resources, sent to your inbox. </p>
                 <form className='flex flex-col sm:flex-row'>
-                <input className='w-full p-2 mr-4 rounded-md mb-4' placeholder='Enter Email address' type="email"/>
+                <input className='w-full p-2 mr-4 rounded-md mb-4' required placeholder='Enter Email address' type="email"/>
                 <button className='p-2 mb-4'>Subscribe</button>
                 </form>
 
