@@ -23,7 +23,7 @@ const Pricing = () => {
                     </p>
                 
             
-                <div className='text-2xl'>
+                <div className='text-2xl' data-aos="slide-up">
                     <p className='flex py-4'><CheckIcon  className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
                     <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
                     <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
@@ -43,7 +43,7 @@ const Pricing = () => {
                     </p>
                 
             
-                <div className='text-2xl '>
+                <div className='text-2xl' data-aos="slide-up">
                     <p className='flex py-4'><CheckIcon  className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
                     <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
                     <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
