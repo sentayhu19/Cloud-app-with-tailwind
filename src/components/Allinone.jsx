@@ -10,7 +10,7 @@ const Allinone = ()  => {
                 to run their applications smoothly without worrying about
                  the technology that supports them.</p>
                  <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
-                    <div className='flex'>
+                    <div className='flex' data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -21,7 +21,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex' data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -32,7 +32,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex' data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -43,7 +43,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex'data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -54,7 +54,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex' data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -65,7 +65,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex'data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -76,7 +76,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex' data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>
@@ -87,7 +87,7 @@ const Allinone = ()  => {
                              </div>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex' data-aos="fade-down">
                     <div>
                         <CheckIcon className='w-7 mr-4 text-green-600'/>
                      </div>

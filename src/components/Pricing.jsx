@@ -13,7 +13,7 @@ const Pricing = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid optio reiciendis, autem sed impedit fugiat similique expedita libero cumque!</p>
                 </div>
                 <div className='grid md:grid-cols-2'>
-                <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
+                <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative' data-aos="fade-right">
                     <span className='upercase px-3 py-1 bg-indigo-200 text-indego-900 rounded-2xl text-sm '>Standard</span>
                     <div>
                         <p className='text-6xl font-bold py-4 flex'>$49<span className='text-xl text-slate-500 flex flex-col justify-end'>/mon</span></p>
@@ -23,7 +23,7 @@ const Pricing = () => {
                     </p>
                 
             
-                <div className='text-2xl '>
+                <div className='text-2xl'>
                     <p className='flex py-4'><CheckIcon  className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
                     <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
                     <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/>Lorem, ipsum dolor.</p>
@@ -33,7 +33,7 @@ const Pricing = () => {
                     <button className='w-full py-4 my-4'>Get Started</button>
                 </div>
                 </div>
-                <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
+                <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative' data-aos="fade-left">
                     <span className='upercase px-3 py-1 bg-indigo-200 text-indego-900 rounded-2xl text-sm '>Premnium</span>
                     <div>
                         <p className='text-6xl font-bold py-4 flex'>$79<span className='text-xl text-slate-500 flex flex-col justify-end'>/mon</span></p>

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -5,8 +6,13 @@ import Support from './components/Support';
 import Allinone from './components/Allinone';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
-
-const App = () => (
+import Aos from 'aos';
+import "aos/dist/aos.css";
+const App = () => {
+useEffect(()=>{
+  Aos.init({duration: 1000, delay:150})
+},[]);
+return (
   <div className="App">
     <Navbar />
     <Hero />
@@ -17,5 +23,6 @@ const App = () => (
     <Footer />
   </div>
 );
+}
 
 export default App;
