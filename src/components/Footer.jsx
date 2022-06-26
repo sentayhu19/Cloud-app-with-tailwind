@@ -52,18 +52,18 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='col-span-2 pt-8 md:pt-2'>
-                <p>Subscribe to our news letter</p>
+                <p className='uppercase font-bold'>Subscribe to our newsletter</p>
                 <p>The latest news,articles, and resources, sent to your inbox. </p>
-                <form>
-                <input type="email"/>
-                <button>Subscribe</button>
+                <form className='flex flex-col sm:flex-row'>
+                <input className='w-full p-2 mr-4 rounded-md mb-4' type="email"/>
+                <button className='p-2 mb-4'>Subscribe</button>
                 </form>
 
             </div>
         </div>
-        <div>
+        <div className='flex max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text -gray-500'>
             <p>2022 All Rights Reserved</p>
-            <div>
+            <div className='flex justify-between sm:w-[300px] p-4  text-2xl' >
                 <FaFacebook/>
                 <FaInstagram/>
                 <FaTwitter/>

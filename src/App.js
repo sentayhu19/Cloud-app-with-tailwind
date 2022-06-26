@@ -14,7 +14,7 @@ const App = () => (
     <Support />
     <Allinone />
     <Pricing />
-    <Footer/>
+    <Footer />
   </div>
 );
 
