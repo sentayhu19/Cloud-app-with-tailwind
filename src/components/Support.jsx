@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/solid'
 const Support =() => {
   return (
-    <div className='w-full  mt-24'>
+    <div name="support" className='w-full  mt-24'>
         <div className='w-full h-[700px] bg-gray-900/90 absolute'>
             <img src={supportImg} className="w-full h-full object-cover mix-blend-overlay" alt="support-img"/>
         </div>
@@ -27,7 +27,7 @@ const Support =() => {
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
-                            <h3 className='font-bold text 2xl my-6'>Sales</h3>
+                            <h3 className='font-bold text-2xl my-6'>Sales</h3>
                             <p className='text-gray-600 text-xl'>A sale is a transaction between two or more parties in which 
                                 the buyer receives tangible or intangible goods, services, or 
                                 assets in exchange for money. In some cases, other assets are 
@@ -41,7 +41,7 @@ const Support =() => {
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <SupportIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
-                            <h3 className='font-bold text 2xl my-6'>Techincal Support</h3>
+                            <h3 className='font-bold text-2xl my-6'>Techincal Support</h3>
                             <p className='text-gray-600 text-xl'>With the increasing use of technology in modern times, there is 
                             a growing requirement to provide technical support. Many organizations locate their technical 
                             support departments. </p>
@@ -54,7 +54,7 @@ const Support =() => {
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
-                            <h3 className='font-bold text 2xl my-6'>Media Inquiries    </h3>
+                            <h3 className='font-bold text-2xl my-6'>Media Inquiries    </h3>
                             <p className='text-gray-600 text-xl'>Press inquiries also occur when devlopers wish to 
                             use a new release or feature article sent to them, and require further information on a 
                             company or its products.</p>

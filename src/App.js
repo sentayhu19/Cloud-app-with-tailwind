@@ -4,6 +4,7 @@ import About from './components/About';
 import Support from './components/Support';
 import Allinone from './components/Allinone';
 import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 const App = () => (
   <div className="App">
@@ -13,6 +14,7 @@ const App = () => (
     <Support />
     <Allinone />
     <Pricing />
+    <Footer />
   </div>
 );
 
