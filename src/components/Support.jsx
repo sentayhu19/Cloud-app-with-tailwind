@@ -25,7 +25,7 @@ const Support =() => {
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
                     <div className='bg-white rounded-xl shadow-2xl'>
-                        <div className='p-8'>
+                        <div className='p-8' data-aos="fade-up">
                             <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
                             <h3 className='font-bold text-2xl my-6'>Sales</h3>
                             <p className='text-gray-600 text-xl'>A sale is a transaction between two or more parties in which 
@@ -39,7 +39,7 @@ const Support =() => {
                         </div>
                     </div>
                     <div className='bg-white rounded-xl shadow-2xl'>
-                        <div className='p-8'>
+                        <div className='p-8' data-aos="fade-up">
                             <SupportIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
                             <h3 className='font-bold text-2xl my-6'>Techincal Support</h3>
                             <p className='text-gray-600 text-xl'>With the increasing use of technology in modern times, there is 
@@ -52,7 +52,7 @@ const Support =() => {
                         </div>
                     </div>
                     <div className='bg-white rounded-xl shadow-2xl'>
-                        <div className='p-8'>
+                        <div className='p-8' data-aos="fade-up">
                             <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
                             <h3 className='font-bold text-2xl my-6'>Media Inquiries    </h3>
                             <p className='text-gray-600 text-xl'>Press inquiries also occur when devlopers wish to 
