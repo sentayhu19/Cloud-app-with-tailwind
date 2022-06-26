@@ -12,7 +12,7 @@ const App = () => (
     <About />
     <Support />
     <Allinone />
-    <Pricing/>
+    <Pricing />
   </div>
 );
 
