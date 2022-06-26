@@ -42,10 +42,9 @@ const Support =() => {
                         <div className='p-8'>
                             <SupportIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
                             <h3 className='font-bold text 2xl my-6'>Techincal Support</h3>
-                            <p className='text-gray-600 text-xl'>A sale is a transaction between two or more parties in which 
-                                the buyer receives tangible or intangible goods, services, or 
-                                assets in exchange for money. In some cases, other assets are 
-                                paid to a seller</p>
+                            <p className='text-gray-600 text-xl'>With the increasing use of technology in modern times, there is 
+                            a growing requirement to provide technical support. Many organizations locate their technical 
+                            support departments. </p>
                                 <div className='bg-slate-100 pl-8 py-4'>
                                 <p className='flex items-center text-indigo-600'>ContactUs <ArrowSmRightIcon className='w-5 ml-2'/></p>
                     
@@ -56,10 +55,9 @@ const Support =() => {
                         <div className='p-8'>
                             <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[4rem]'/>
                             <h3 className='font-bold text 2xl my-6'>Media Inquiries    </h3>
-                            <p className='text-gray-600 text-xl'>A sale is a transaction between two or more parties in which 
-                                the buyer receives tangible or intangible goods, services, or 
-                                assets in exchange for money. In some cases, other assets are 
-                                paid to a seller</p>
+                            <p className='text-gray-600 text-xl'>Press inquiries also occur when devlopers wish to 
+                            use a new release or feature article sent to them, and require further information on a 
+                            company or its products.</p>
                                 <div className='bg-slate-100 pl-8 py-4'>
                                 <p className='flex items-center text-indigo-600'>ContactUs <ArrowSmRightIcon className='w-5 ml-2'/></p>
                     
