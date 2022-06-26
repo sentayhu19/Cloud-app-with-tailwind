@@ -47,7 +47,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden md:flex pr-4">
+        {/* Mobile Menu */}
+        <div className="hidden md:flex pr-4">   
           <button className="border-none bg-transparent text-black mr-4">
             Sign in
           </button>
@@ -60,16 +61,17 @@ const Navbar = () => {
       <div className={nav ? "hidden" : "" + "md:hidden"}>
         <ul className="absolute bg-zinc-200 w-full px-8px">
         <li className="cursor-pointer">
-              <Link to="home" smooth={true}  offset={50} duration={500}> Home</Link>{" "}
+              <Link to="home" smooth={true} onClick={handleClick}  offset={500} duration={500}> Home</Link>{" "}
               
             </li>
             <li className="cursor-pointer">
-              <Link to="about" smooth={true} offset={50} duration={500}>About</Link>{" "}
+              <Link to="about" smooth={true} onClick={handleClick} offset={-200} duration={500}>About</Link>{" "}
               
             </li>
             <li className="cursor-pointer">
               <Link
                 to="support"
+                onClick={handleClick}
                 smooth={true}
                 offset={50}
                 duration={500}
@@ -79,6 +81,7 @@ const Navbar = () => {
             <li className="cursor-pointer">
               <Link
                 to="platforms"
+                onClick={handleClick}
                 smooth={true}
                 offset={50}
                 duration={500}
@@ -87,6 +90,7 @@ const Navbar = () => {
             </li>
             <li className="cursor-pointer">
               <Link
+              onClick={handleClick}
                 to="pricing"
                 smooth={true}
                 offset={50}
