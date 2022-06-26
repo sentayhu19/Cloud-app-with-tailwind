@@ -22,7 +22,12 @@
       "no-shadow": "off",
       "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       "react/jsx-props-no-spreading": "off",
-      "prefer-destructuring":"off"
+      "prefer-destructuring":"off",
+      "linebreak-style": "off",
+      "no-unused-vars": "off",
+      "jsx-a11y/interactive-supports-focus":"off",
+      "no-useless-concat":"off",
+      "jsx-a11y/control-has-associated-label":"off"
     },
     "ignorePatterns": [
       "dist/",

@@ -55,7 +55,7 @@ const Footer = () => (
         <p>The latest news,articles, and resources, sent to your inbox. </p>
         <form className="flex flex-col sm:flex-row" action="#">
           <input className="w-full p-2 mr-4 rounded-md mb-4" required placeholder="Enter Email address" type="email" />
-          <button className="p-2 mb-4" type="submit text-white border bg-indigo-600  rounded-md">Subscribe</button>
+          <button type="submit" className="p-2 mb-4 text-white border bg-indigo-600  rounded-md">Subscribe</button>
         </form>
 
       </div>
