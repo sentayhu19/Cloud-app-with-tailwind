@@ -10,7 +10,7 @@ import cyber1 from '../assets/images/cyber1.jpg';
 const Hero = () => (
   <div name="home" className="w-full bg-zinc-200 flex flex-col justify-between">
     <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-      <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
+      <div className="flex flex-col justify-center md:items-start w-full px-2 py-8 mt-12">
         <p className="text-2xl">Unique sequence and production</p>
         <h1 className="py-3 text-5xl md:text-7xl font-bold">Cloud Managment</h1>
         <p>This is our Tech brand.</p>

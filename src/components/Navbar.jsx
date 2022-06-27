@@ -64,7 +64,7 @@ const Navbar = () => {
           <button type="button" className="border-none bg-transparent text-black mr-4">
             Sign in
           </button>
-          <button type="button" className="px-8 py-3 text-white border bg-indigo-600  rounded-md ">Sign up</button>
+          <button type="button" className="px-8 py-3 text-white bg-indigo-600 rounded-md ">Sign up</button>
         </div>
         <div className="md:hidden" onClick={handleClick} onKeyUp={handleClick} role="button">
           {nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
@@ -126,7 +126,7 @@ const Navbar = () => {
               <button type="button" className="border-none bg-transparent text-black mr-4">
                 Sign in
               </button>
-              <button type="button" className="px-8 py-3 ">Sign up</button>
+              <button type="button" className="px-8 py-3 text-white border bg-indigo-600 ">Sign up</button>
             </div>
           </li>
         </ul>

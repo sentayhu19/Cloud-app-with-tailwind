@@ -6,7 +6,7 @@
         @apply p-4
     }
     button {
-        @apply text-white border bg-indigo-600  rounded-md
+        @apply text-white  bg-indigo-600  rounded-md
     }
     button:hover{
         @apply bg-white text-black
