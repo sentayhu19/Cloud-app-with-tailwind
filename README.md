@@ -1,16 +1,15 @@
 # Cloud-app-with-tailwind
 
+A Cloud Management website built with Tailwindcss.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-The Covid-19 data-app collects information from API and present data for the novel coronavirus.
 
 <img src="./src/assets/images/hero.png" width="100%"/>
 <img src="./src/assets/images/support.png" width="100%"/>
 
-## Live demo comming soon
+## Live demo
 
-[Live Demo Link on Netlify]()
+[Live Demo Link on vercel](https://cloud-app-with-tailwind.vercel.app/)
 
 ## Built With
 
@@ -18,7 +17,7 @@ The Covid-19 data-app collects information from API and present data for the nov
 - CSS
 - JavaScript
 - React
-- Redux
+- Tailwindcss
 
 ### Prerequisites
 
